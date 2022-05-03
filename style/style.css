@@ -1,0 +1,28 @@
+body{
+background-color: #005555;
+color: aliceblue;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.sessao{
+    background-color: aliceblue;
+    color: #005555;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.63);
+    
+    
+    margin-left: 33%;
+    margin-right: 33%;
+
+
+    padding: 12px;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 15px;
+    
+}
