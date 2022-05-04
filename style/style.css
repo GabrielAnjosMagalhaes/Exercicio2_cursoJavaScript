@@ -26,3 +26,46 @@ color: aliceblue;
     border-radius: 15px;
     
 }
+
+.res{
+    margin-top: 10px;
+}
+
+.verificar{
+    min-width: 300px;
+    min-height: 37.5px;
+
+    background-color: #005555;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    border-color: aliceblue;
+    transition: 1s ease all;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.verificar:hover{
+background-color: #0a9292;
+color: rgb(34, 34, 34);
+transition: 1.5s ease all;
+cursor: pointer;
+border-radius: 30px;
+
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.ano{
+    border-radius: 10px;
+    background-color: lightcyan;
+    color: #005555;
+}

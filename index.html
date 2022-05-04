@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descobrindo idade</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.jpg">
 </head>
 <body>
-    <div class="titulo"><h2>Olá mundo, vamos para mais um exercício.</h2></div>
-
+    <div class="titulo"><h2>Qual a idade?</h2></div>
+    
     <section class="sessao">
         <div>
-            Testando
+            <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0"  class="ano">    
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="VERIFICAR" class="verificar" onclick="verificar()">
         </div>
+        <div id="res" class="res">
+            <h3>Para ver o resultado preencha os dados acima!</h3>  
+        </div>
+
     </section>
 
 
